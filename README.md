@@ -6,7 +6,10 @@
 
 [Single Shot Detector](https://github.com/AswinkumarGitHub/Computer-Vision-Algorithm/blob/main/Single%20Shot%20Detector/SSD.md)
 
+[YOLOX](https://github.com/AswinkumarGitHub/Computer-Vision-Algorithm/blob/main/YOLOX/YOLOX.md)
+
 [Region Proposal Network](https://github.com/AswinkumarGitHub/Computer-Vision-Algorithm/blob/main/Region%20Proposal%20Network/RPN.md)
+
 
 # Preparing Inputs
 
