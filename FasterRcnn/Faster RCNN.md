@@ -13,7 +13,7 @@ State-of-the-art object detection networks depend on region proposal algorithms 
 <img src="https://user-images.githubusercontent.com/40661020/143881188-ab87720f-5059-4b4e-a928-b540fb8fb84d.png" height="300"/>
 </div>
 
-Training Data: COCO
+## Training Data: COCO
       
 ##     Training Techniques:
             -SGD with Momentum
