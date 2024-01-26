@@ -2,26 +2,6 @@
 
 #Object Dectection
 
-## Torchvision New Receipe (TNR)
-
-Torchvision released its high-precision ResNet models. The training details can be found on the [Pytorch website](https://pytorch.org/blog/how-to-train-state-of-the-art-models-using-torchvision-latest-primitives/). Here, we have done grid searches on learning rate and weight decay and found the optimal hyper-parameter on the detection task.
-
-|                       Backbone                       |  Style  | Lr schd | Mem (GB) | Inf time (fps) | box AP |                       Config                       |                                                                                                                                                                               Download                                                                                                                                                                               |
-| :--------------------------------------------------: | :-----: | :-----: | :------: | :------------: | :----: | :------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| [R-50-TNR](./faster-rcnn_r50-tnr-pre_fpn_1x_coco.py) | pytorch |   1x    |    -     |                |  40.2  | [config](./faster-rcnn_r50-tnr-pre_fpn_1x_coco.py) | [model](https://download.openmmlab.com/mmdetection/v2.0/faster_rcnn/faster_rcnn_r50_fpn_tnr-pretrain_1x_coco/faster_rcnn_r50_fpn_tnr-pretrain_1x_coco_20220320_085147-efedfda4.pth) \| [log](https://download.openmmlab.com/mmdetection/v2.0/faster_rcnn/faster_rcnn_r50_fpn_tnr-pretrain_1x_coco/faster_rcnn_r50_fpn_tnr-pretrain_1x_coco_20220320_085147.log.json) |
-
-## Citation
-
-```latex
-@article{Ren_2017,
-   title={Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks},
-   journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
-   publisher={Institute of Electrical and Electronics Engineers (IEEE)},
-   author={Ren, Shaoqing and He, Kaiming and Girshick, Ross and Sun, Jian},
-   year={2017},
-   month={Jun},
-}
-```
 
 <details open><summary>Detection (COCO)</summary>
 
