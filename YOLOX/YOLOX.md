@@ -12,6 +12,19 @@ In this report, we present some experienced improvements to YOLO series, forming
 <img src="https://user-images.githubusercontent.com/40661020/144001736-9fb303dd-eac7-46b0-ad45-214cfa51e928.png"/>
 </div>
 
+## Training Data: COCO
+  
+  ##  Training Techniques:
+        - SGD with Nesterov
+        - Weight Decay
+        - Cosine Annealing Lr Updater
+      
+  ##  Training Resources: 8x TITANXp GPUs
+      
+  ##  Architecture:
+        - CSPDarkNet
+        - PAFPN
+
 ## Results and Models
 
 |  Backbone  | size | Mem (GB) | box AP |                  Config                  |                                                                                                                                         Download                                                                                                                                         |
