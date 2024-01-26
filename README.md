@@ -2,6 +2,7 @@
 
 #Object Dectection
 
+[Faster RCNN](https://github.com/AswinkumarGitHub/Computer-Vision-Algorithm/blob/main/Faster%20RCNN)
 
 <details open><summary>Detection (COCO)</summary>
 
