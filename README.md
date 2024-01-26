@@ -8,6 +8,8 @@
 
 [YOLOX](https://github.com/AswinkumarGitHub/Computer-Vision-Algorithm/blob/main/YOLOX/YOLOX.md)
 
+[YOLO V8](https://github.com/AswinkumarGitHub/Computer-Vision-Algorithm/blob/main/YOLO%20V8/YOLO%20V8.md)
+
 [Region Proposal Network](https://github.com/AswinkumarGitHub/Computer-Vision-Algorithm/blob/main/Region%20Proposal%20Network/RPN.md)
 
 
