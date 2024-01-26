@@ -4,4 +4,4 @@
 
 [Faster RCNN](https://github.com/AswinkumarGitHub/Computer-Vision-Algorithm/blob/main/FasterRcnn/Faster%20RCNN.md)
 
-[Single Shot Detector]()
+[Single Shot Detector](https://github.com/AswinkumarGitHub/Computer-Vision-Algorithm/blob/main/Single%20Shot%20Detector/SSD.md)
