@@ -31,6 +31,8 @@
 
 [Cascade R-CNN](https://github.com/AswinkumarGitHub/Computer-Vision-Algorithm/blob/main/Cascade%20R-CNN/Cascade%20R-CNN.md)
 
+[BoxInst](https://github.com/AswinkumarGitHub/Computer-Vision-Algorithm/blob/main/BoxInst/BoxInst.md)
+
 # Preparing Inputs
 
 [TOC]
