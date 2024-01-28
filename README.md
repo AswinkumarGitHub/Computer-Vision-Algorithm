@@ -33,5 +33,7 @@
 
 [BoxInst](https://github.com/AswinkumarGitHub/Computer-Vision-Algorithm/blob/main/BoxInst/BoxInst.md)
 
+[SOLOv2]()
+
 
 
