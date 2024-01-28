@@ -1,6 +1,23 @@
 
 
-  ## Detection (COCO)
+<div align=center>
+<img src="https://blog.roboflow.com/content/images/2023/01/image-16.png"/>
+</div>
+
+
+## Training Data: COCO
+
+## Training Techniques:
+        - SGD with Momentum
+        - Weight Decay
+
+## Training Resources: 8x V100 GPUs
+      
+## Architecture:
+        - VGG
+
+
+## Results
 
 See [Detection Docs](https://docs.ultralytics.com/tasks/detect/) for usage examples with these models trained on [COCO](https://docs.ultralytics.com/datasets/detect/coco/), which include 80 pre-trained classes.
 
