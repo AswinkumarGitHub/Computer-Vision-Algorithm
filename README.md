@@ -12,6 +12,8 @@
 
 [DINO](https://github.com/AswinkumarGitHub/Computer-Vision-Algorithm/blob/main/DINO/DINO.md)
 
+[Task-aligned One-stage Object Detection](https://github.com/AswinkumarGitHub/Computer-Vision-Algorithm/blob/main/TOOD/TOOD.md)
+
 [Region Proposal Network](https://github.com/AswinkumarGitHub/Computer-Vision-Algorithm/blob/main/Region%20Proposal%20Network/RPN.md)
 
 
