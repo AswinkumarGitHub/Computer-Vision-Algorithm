@@ -10,8 +10,9 @@ YOLOv8 is designed to be fast, accurate, and easy to use, making it an excellent
 ## Training Data: COCO
 
 ## Training Techniques:
-        - SGD with Momentum
-        - Weight Decay
+        - Dynamic schedules (cosine, warmup)
+        - Adam (primary choice)
+        - Weight decay, data augmentation, early stopping, dropout
 
 ## Training Resources: A100 TensorRT (GPU)
       
