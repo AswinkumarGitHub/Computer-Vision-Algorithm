@@ -1,5 +1,6 @@
 
-<details open><summary>Detection (COCO)</summary>
+<details open>
+  ## Detection (COCO)
 
 See [Detection Docs](https://docs.ultralytics.com/tasks/detect/) for usage examples with these models trained on [COCO](https://docs.ultralytics.com/datasets/detect/coco/), which include 80 pre-trained classes.
 
