@@ -13,10 +13,12 @@ YOLOv8 is designed to be fast, accurate, and easy to use, making it an excellent
         - SGD with Momentum
         - Weight Decay
 
-## Training Resources: 8x V100 GPUs
+## Training Resources: A100 TensorRT (GPU)
       
 ## Architecture:
-        - VGG
+        - EfficientNet
+        - ResNet
+        - CSPDarknet
 
 
 ## Results
@@ -34,4 +36,6 @@ See [Detection Docs](https://docs.ultralytics.com/tasks/detect/) for usage examp
 - **mAP<sup>val</sup>** values are for single-model single-scale on [COCO val2017](https://cocodataset.org) dataset. <br>Reproduce by `yolo val detect data=coco.yaml device=0`
 - **Speed** averaged over COCO val images using an [Amazon EC2 P4d](https://aws.amazon.com/ec2/instance-types/p4/) instance. <br>Reproduce by `yolo val detect data=coco.yaml batch=1 device=0|cpu`
 
+
+YOLO V8 - Custom dataset Trainning (https://github.com/roboflow/notebooks/blob/main/notebooks/train-yolov8-object-detection-on-custom-dataset.ipynb)
 
