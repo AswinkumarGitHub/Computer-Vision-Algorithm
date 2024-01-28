@@ -12,6 +12,18 @@ We present a method for detecting objects in images using a single deep neural n
 <img src="https://user-images.githubusercontent.com/40661020/143998553-4e12f681-6025-46b4-8410-9e2e1e53a8ec.png"/>
 </div>
 
+
+## Training Data: COCO
+
+## Training Techniques:
+        - SGD with Momentum
+        - Weight Decay
+
+## Training Resources: 8x V100 GPUs
+      
+## Architecture:
+        - VGG
+
 ## Results and models of SSD
 
 | Backbone | Size | Style | Lr schd | Mem (GB) | Inf time (fps) | box AP |           Config           |                                                                                                             Download                                                                                                             |
