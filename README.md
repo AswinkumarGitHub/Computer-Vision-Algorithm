@@ -16,6 +16,8 @@
 
 [DINO](https://github.com/AswinkumarGitHub/Computer-Vision-Algorithm/blob/main/DINO/DINO.md)
 
+[FreeAnchor](https://github.com/AswinkumarGitHub/Computer-Vision-Algorithm/blob/main/FreeAnchor/FreeAnchor.md)
+
 [ResNeSt](https://github.com/AswinkumarGitHub/Computer-Vision-Algorithm/blob/main/ResNeSt/ResNeSt.md)
 
 [Task-aligned One-stage Object Detection](https://github.com/AswinkumarGitHub/Computer-Vision-Algorithm/blob/main/TOOD/TOOD.md)
