@@ -10,6 +10,8 @@
 
 [YOLO V8](https://github.com/AswinkumarGitHub/Computer-Vision-Algorithm/blob/main/YOLO%20V8/YOLO%20V8.md)
 
+[Disentangled Dense Object Detector]()
+
 [DINO](https://github.com/AswinkumarGitHub/Computer-Vision-Algorithm/blob/main/DINO/DINO.md)
 
 [Task-aligned One-stage Object Detection](https://github.com/AswinkumarGitHub/Computer-Vision-Algorithm/blob/main/TOOD/TOOD.md)
