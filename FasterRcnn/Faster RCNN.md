@@ -47,7 +47,7 @@ State-of-the-art object detection networks depend on region proposal algorithms 
 
 
 | Model name     | Backbone            | Size        | Speed (ms) | COCO mAP | Outputs |
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------: | :----------: | :-----: |
+|:---------------:|:--------------------:|:---------------------------------------------------------------------------------------------------------------------------------------- | :--------: | :----------: | :-----: |
 [Faster R-CNN](http://download.tensorflow.org/models/object_detection/tf2/20200711/faster_rcnn_resnet50_v1_640x640_coco17_tpu-8.tar.gz) | [ResNet50 V1] | [640x640]                 | 53         | 29.3           | Boxes |
 [Faster R-CNN](http://download.tensorflow.org/models/object_detection/tf2/20200711/faster_rcnn_resnet50_v1_1024x1024_coco17_tpu-8.tar.gz)   | [ResNet50 V1] |[1024x1024]           | 65         | 31.0           | Boxes |
 [Faster R-CNN](http://download.tensorflow.org/models/object_detection/tf2/20200711/faster_rcnn_resnet50_v1_800x1333_coco17_gpu-8.tar.gz) | [ResNet50 V1] |[800x1333]               | 65         | 31.6           | Boxes |
