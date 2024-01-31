@@ -48,17 +48,17 @@ State-of-the-art object detection networks depend on region proposal algorithms 
 
 | Model name     | Backbone            | Size        | Speed (ms) | COCO mAP | Outputs |
 |:---------------:|:--------------------:|:----------------------------------------------------------------------------------------------------------------------------------------: | :--------: | :----------: | :-----: |
-[Faster R-CNN](http://download.tensorflow.org/models/object_detection/tf2/20200711/faster_rcnn_resnet50_v1_640x640_coco17_tpu-8.tar.gz) | [ResNet50 V1] | [640x640]                 | 53         | 29.3           | Boxes |
-[Faster R-CNN](http://download.tensorflow.org/models/object_detection/tf2/20200711/faster_rcnn_resnet50_v1_1024x1024_coco17_tpu-8.tar.gz)   | [ResNet50 V1] |[1024x1024]           | 65         | 31.0           | Boxes |
-[Faster R-CNN](http://download.tensorflow.org/models/object_detection/tf2/20200711/faster_rcnn_resnet50_v1_800x1333_coco17_gpu-8.tar.gz) | [ResNet50 V1] |[800x1333]               | 65         | 31.6           | Boxes |
-[Faster R-CNN](http://download.tensorflow.org/models/object_detection/tf2/20200711/faster_rcnn_resnet101_v1_640x640_coco17_tpu-8.tar.gz)  | [ResNet101 V1]| [40x640]              |    55      | 31.8           | Boxes |
-[Faster R-CNN](http://download.tensorflow.org/models/object_detection/tf2/20200711/faster_rcnn_resnet101_v1_1024x1024_coco17_tpu-8.tar.gz)  | [ResNet101 V1]| [1024x1024]          | 72         | 37.1           | Boxes |
-[Faster R-CNN](http://download.tensorflow.org/models/object_detection/tf2/20200711/faster_rcnn_resnet101_v1_800x1333_coco17_gpu-8.tar.gz)    | [ResNet101 V1]| [800x1333]          | 77         | 36.6           | Boxes |
-[Faster R-CNN](http://download.tensorflow.org/models/object_detection/tf2/20200711/faster_rcnn_resnet152_v1_640x640_coco17_tpu-8.tar.gz)  | [ResNet152 V1]| [640x640]              | 64         | 32.4           | Boxes |
-[Faster R-CNN](http://download.tensorflow.org/models/object_detection/tf2/20200711/faster_rcnn_resnet152_v1_1024x1024_coco17_tpu-8.tar.gz) | [ResNet152 V1]| [1024x1024]        | 85         | 37.6           | Boxes |
-[Faster R-CNN](http://download.tensorflow.org/models/object_detection/tf2/20200711/faster_rcnn_resnet152_v1_800x1333_coco17_gpu-8.tar.gz)    | [ResNet152 V1]| [800x1333]          | 101         | 37.4           | Boxes |
-[Faster R-CNN](http://download.tensorflow.org/models/object_detection/tf2/20200711/faster_rcnn_inception_resnet_v2_640x640_coco17_tpu-8.tar.gz)  | [Inception ResNet V2]| [640x640]            | 206         | 37.7           | Boxes |
-[Faster R-CNN](http://download.tensorflow.org/models/object_detection/tf2/20200711/faster_rcnn_inception_resnet_v2_1024x1024_coco17_tpu-8.tar.gz) | [Inception ResNet V2]| [1024x1024]             | 236         | 38.7           | Boxes |
+|[Faster R-CNN](http://download.tensorflow.org/models/object_detection/tf2/20200711/faster_rcnn_resnet50_v1_640x640_coco17_tpu-8.tar.gz) | [ResNet50 V1] | [640x640]                 | 53         | 29.3           | Boxes |
+|[Faster R-CNN](http://download.tensorflow.org/models/object_detection/tf2/20200711/faster_rcnn_resnet50_v1_1024x1024_coco17_tpu-8.tar.gz)   | [ResNet50 V1] |[1024x1024]           | 65         | 31.0           | Boxes |
+|[Faster R-CNN](http://download.tensorflow.org/models/object_detection/tf2/20200711/faster_rcnn_resnet50_v1_800x1333_coco17_gpu-8.tar.gz) | [ResNet50 V1] |[800x1333]               | 65         | 31.6           | Boxes |
+|[Faster R-CNN](http://download.tensorflow.org/models/object_detection/tf2/20200711/faster_rcnn_resnet101_v1_640x640_coco17_tpu-8.tar.gz)  | [ResNet101 V1]| [40x640]              |    55      | 31.8           | Boxes |
+|[Faster R-CNN](http://download.tensorflow.org/models/object_detection/tf2/20200711/faster_rcnn_resnet101_v1_1024x1024_coco17_tpu-8.tar.gz)  | [ResNet101 V1]| [1024x1024]          | 72         | 37.1           | Boxes |
+|[Faster R-CNN](http://download.tensorflow.org/models/object_detection/tf2/20200711/faster_rcnn_resnet101_v1_800x1333_coco17_gpu-8.tar.gz)    | [ResNet101 V1]| [800x1333]          | 77         | 36.6           | Boxes |
+|[Faster R-CNN](http://download.tensorflow.org/models/object_detection/tf2/20200711/faster_rcnn_resnet152_v1_640x640_coco17_tpu-8.tar.gz)  | [ResNet152 V1]| [640x640]              | 64         | 32.4           | Boxes |
+|[Faster R-CNN](http://download.tensorflow.org/models/object_detection/tf2/20200711/faster_rcnn_resnet152_v1_1024x1024_coco17_tpu-8.tar.gz) | [ResNet152 V1]| [1024x1024]        | 85         | 37.6           | Boxes |
+|[Faster R-CNN](http://download.tensorflow.org/models/object_detection/tf2/20200711/faster_rcnn_resnet152_v1_800x1333_coco17_gpu-8.tar.gz)    | [ResNet152 V1]| [800x1333]          | 101         | 37.4           | Boxes |
+|[Faster R-CNN](http://download.tensorflow.org/models/object_detection/tf2/20200711/faster_rcnn_inception_resnet_v2_640x640_coco17_tpu-8.tar.gz)  | [Inception ResNet V2]| [640x640]            | 206         | 37.7           | Boxes |
+|[Faster R-CNN](http://download.tensorflow.org/models/object_detection/tf2/20200711/faster_rcnn_inception_resnet_v2_1024x1024_coco17_tpu-8.tar.gz) | [Inception ResNet V2]| [1024x1024]             | 236         | 38.7           | Boxes |
 
 
 ## Different regression loss
