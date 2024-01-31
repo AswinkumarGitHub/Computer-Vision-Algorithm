@@ -51,6 +51,12 @@ We present a conceptually simple, flexible, and general framework for object ins
 | :--------: | :-----------: | :------: | :-----: | :----------: | :------: | :----: | :-----: | :----------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | Mask R-CNN | ConvNeXt-V2-B |  FCMAE   |   3x    |     LSJ      |   22.5   |  52.9  |  46.4   | [config](./mask-rcnn_convnext-v2-b_fpn_lsj-3x-fcmae_coco.py) | [model](https://download.openmmlab.com/mmdetection/v3.0/convnextv2/mask-rcnn_convnext-v2-b_fpn_lsj-3x-fcmae_coco/mask-rcnn_convnext-v2-b_fpn_lsj-3x-fcmae_coco_20230113_110947-757ee2dd.pth)  \| [log](https://download.openmmlab.com/mmdetection/v3.0/convnextv2/mask-rcnn_convnext-v2-b_fpn_lsj-3x-fcmae_coco/mask-rcnn_convnext-v2-b_fpn_lsj-3x-fcmae_coco_20230113_110947.log.json) |
 
+
+
+| Model name     | Backbone            | Size        | Speed (ms) | COCO mAP | Outputs | Training Resources |
+|:---------------:|:--------------------:|:----------------------------------------------------------------:|:------------------------------------------------------------------------: | :--------: | :----------: | :--------------------: |
+[Mask R-CNN(http://download.tensorflow.org/models/object_detection/tf2/20200711/mask_rcnn_inception_resnet_v2_1024x1024_coco17_gpu-8.tar.gz) | Inception ResNet V2 | 1024x1024] |    301      | 39.0/34.6           | Boxes/Masks | GPU-8 |
+
 ## Pre-trained Models
 
 We also train some models with longer schedules and multi-scale training. The users could finetune them for downstream tasks.
