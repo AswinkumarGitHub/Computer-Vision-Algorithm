@@ -31,6 +31,20 @@ We present a method for detecting objects in images using a single deep neural n
 |  VGG16   | 300  | caffe |  120e   |   9.9    |      43.7      |  25.5  | [config](./ssd300_coco.py) | [model](https://download.openmmlab.com/mmdetection/v2.0/ssd/ssd300_coco/ssd300_coco_20210803_015428-d231a06e.pth) \| [log](https://download.openmmlab.com/mmdetection/v2.0/ssd/ssd300_coco/ssd300_coco_20210803_015428.log.json) |
 |  VGG16   | 512  | caffe |  120e   |   19.4   |      30.7      |  29.5  | [config](./ssd512_coco.py) | [model](https://download.openmmlab.com/mmdetection/v2.0/ssd/ssd512_coco/ssd512_coco_20210803_022849-0a47a1ca.pth) \| [log](https://download.openmmlab.com/mmdetection/v2.0/ssd/ssd512_coco/ssd512_coco_20210803_022849.log.json) |
 
+
+| Model name     | Backbone      | Style      | Size        | Speed (ms) | COCO mAP | Outputs | Training Resources |
+|:---------------:|:--------------------:|:--------------------:|:--------------------------------------------:|:------------------------------------------------------------------------: | :--------: | :----------: | :--------------------: |
+[SSD](http://download.tensorflow.org/models/object_detection/tf2/20200711/ssd_mobilenet_v2_320x320_coco17_tpu-8.tar.gz)   |  MobileNet v2| Tensorflow 2 |320x320                            |19         | 20.2           | Boxes | TPU-8 |
+[SSD] (http://download.tensorflow.org/models/object_detection/tf2/20200711/ssd_mobilenet_v1_fpn_640x640_coco17_tpu-8.tar.gz)|MobileNet V1 FPN | Tensorflow 2 |640x640|                        | 48        | 29.1           | Boxes | TPU-8|
+[SSD](http://download.tensorflow.org/models/object_detection/tf2/20200711/ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8.tar.gz)| MobileNet V2 FPNLite | Tensorflow|320x320  | 22         | 22.2           | Boxes |
+[SSD](http://download.tensorflow.org/models/object_detection/tf2/20200711/ssd_mobilenet_v2_fpnlite_640x640_coco17_tpu-8.tar.gz) |MobileNet V2 FPNLite | Tensorflow|640x640   | 39         | 28.2           | Boxes |
+[SSD](http://download.tensorflow.org/models/object_detection/tf2/20200711/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8.tar.gz) | ResNet50 V1 FPN (RetinaNet50) | Tensorflow|640x640 | 46         | 34.3           | Boxes | 
+[SSD](http://download.tensorflow.org/models/object_detection/tf2/20200711/ssd_resnet50_v1_fpn_1024x1024_coco17_tpu-8.tar.gz)| ResNet50 V1 FPN(RetinaNet50) | Tensorflow |1024x1024                       | 87         | 38.3           | Boxes |
+[SSD](http://download.tensorflow.org/models/object_detection/tf2/20200711/ssd_resnet101_v1_fpn_640x640_coco17_tpu-8.tar.gz)| ResNet101 V1 FPN (RetinaNet101)| Tensorflow |640x640        | 57         | 35.6           | Boxes
+[SSD](http://download.tensorflow.org/models/object_detection/tf2/20200711/ssd_resnet101_v1_fpn_1024x1024_coco17_tpu-8.tar.gz) | ResNet101 V1 FPN (RetinaNet101)|Tensorflow  |1024x1024             | 104        | 39.5           | Boxes |
+[SSD](http://download.tensorflow.org/models/object_detection/tf2/20200711/ssd_resnet152_v1_fpn_640x640_coco17_tpu-8.tar.gz)| ResNet152 V1 FPN (RetinaNet152) | Tensorflow |640x640                         | 80         | 35.4           | Boxes |
+[SSD](http://download.tensorflow.org/models/object_detection/tf2/20200711/ssd_resnet152_v1_fpn_1024x1024_coco17_tpu-8.tar.gz)  | ResNet152 V1 FPN (RetinaNet152) |Tensorflow|1024x1024|                   | 111        | 39.6           | Boxes |
+
 ## Results and models of SSD-Lite
 
 |  Backbone   | Size | Training from scratch | Lr schd | Mem (GB) | Inf time (fps) | box AP |                           Config                           |                                                                                                                                                                 Download                                                                                                                                                                 |
