@@ -45,6 +45,7 @@ State-of-the-art object detection networks depend on region proposal algorithms 
 | X-101-64x4d-FPN | pytorch |   1x    |   10.3   |      9.4       |  42.1  | [config](./faster-rcnn_x101-64x4d_fpn_1x_coco.py) |             [model](https://download.openxlab.org.cn/models/mmdetection/FasterR-CNN/weight/faster-rcnn_x101-64x4d_fpn_1x_coco) \| [log](https://download.openmmlab.com/mmdetection/v2.0/faster_rcnn/faster_rcnn_x101_64x4d_fpn_1x_coco/faster_rcnn_x101_64x4d_fpn_1x_coco_20200204_134340.log.json)             |
 | X-101-64x4d-FPN | pytorch |   2x    |    -     |       -        |  41.6  | [config](./faster-rcnn_x101-64x4d_fpn_2x_coco.py) |             [model](https://download.openxlab.org.cn/models/mmdetection/FasterR-CNN/weight/faster-rcnn_x101-64x4d_fpn_2x_coco) \| [log](https://download.openmmlab.com/mmdetection/v2.0/faster_rcnn/faster_rcnn_x101_64x4d_fpn_2x_coco/faster_rcnn_x101_64x4d_fpn_2x_coco_20200512_161033.log.json)             |
 
+## TensorFlow 2 Detection Model Zoo
 
 
 | Model name     | Backbone            | Size        | Speed (ms) | COCO mAP | Outputs | Training Resources |
