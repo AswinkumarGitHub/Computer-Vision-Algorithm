@@ -5,10 +5,10 @@
 
 ## Abstract
 
-CenterNet is an anchorless object detection architecture. This structure has an important advantage in that it replaces the classical NMS (Non Maximum Suppression) at the post process, with a much more elegant algorithm, that is natural to the CNN flow. This mechanism enables a much faster inference.
+CenterNet is an anchorless object detection architecture. It is a one-stage object detector that detects each object as a triplet, rather than a pair, of keypoints. It utilizes two customized modules named cascade corner pooling and center pooling, which play the roles of enriching information collected by both top-left and bottom-right corners and providing more recognizable information at the central regions, respectively. The intuition is that, if a predicted bounding box has a high IoU with the ground-truth box, then the probability that the center keypoint in its central region is predicted as the same class is high, and vice versa. Thus, during inference, after a proposal is generated as a pair of corner keypoints, we determine if the proposal is indeed an object by checking if there is a center keypoint of the same class falling within its central region.
 
 <div align=center>
-<img src="https://miro.medium.com/v2/resize:fit:1400/1*y82flEmdWr20NjuevgQ8-Q.png" height="300"/>
+<img src="https://production-media.paperswithcode.com/methods/Screen_Shot_2020-06-23_at_12.29.21_PM_bAPb2Mm.png" height="300"/>
 </div>
 
 ## Training Data: COCO
@@ -17,7 +17,7 @@ CenterNet is an anchorless object detection architecture. This structure has an 
 ##     Training Resource: TPU-8 and TPU-32
       
 ##     Architecture:
-        - FPN
+        - 
         - RPN
         - ResNet
         - RoIPool
