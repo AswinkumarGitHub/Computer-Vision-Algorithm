@@ -1,3 +1,8 @@
+
+
+
+##Tensorflow2 Model zoo
+
 | Model name     | Backbone            | Size        | Speed (ms) | COCO mAP | Outputs | Training Resources |
 |:---------------:|:--------------------:|:----------------------------------------------------------------:|:------------------------------------------------------------------------: | :--------: | :----------: | :--------------------: |
 |[CenterNet](http://download.tensorflow.org/models/object_detection/tf2/20200713/centernet_hg104_512x512_coco17_tpu-8.tar.gz) | [HourGlass104] | [512x512]                 | 70         | 41.9           | Boxes |  TPU-8 |
@@ -9,5 +14,5 @@
 |[CenterNet ](http://download.tensorflow.org/models/object_detection/tf2/20200711/centernet_resnet101_v1_fpn_512x512_coco17_tpu-8.tar.gz) | Resnet101 V1 FPN | 512x512 | 34 | 34.2 | Boxes |TPU-8 |
 |[CenterNet ](http://download.tensorflow.org/models/object_detection/tf2/20200711/centernet_resnet50_v2_512x512_coco17_tpu-8.tar.gz) | Resnet50 V2 | 512x512 | 27 | 29.5 | Boxes |TPU-8 |
 |[CenterNet ](http://download.tensorflow.org/models/object_detection/tf2/20200711/centernet_resnet50_v2_512x512_kpts_coco17_tpu-8.tar.gz) | Resnet50 V2 | 512x512 | 30 | 27.6/48.2 | Boxes/Keypoints |TPU-8 |
-|[CenterNet](http://download.tensorflow.org/models/object_detection/tf2/20210210/centernet_mobilenetv2fpn_512x512_coco17_od.tar.gz) | MobileNetV2 FPN | 512x512 | 6 | 23.4 | Boxes |
-|[CenterNet](http://download.tensorflow.org/models/object_detection/tf2/20210210/centernet_mobilenetv2fpn_512x512_coco17_kpts.tar.gz) | MobileNetV2 FPN | 512x512 | 6 | 41.7 | Keypoints |
+|[CenterNet](http://download.tensorflow.org/models/object_detection/tf2/20210210/centernet_mobilenetv2fpn_512x512_coco17_od.tar.gz) | MobileNetV2 FPN | 512x512 | 6 | 23.4 | Boxes |TPU-8 |
+|[CenterNet](http://download.tensorflow.org/models/object_detection/tf2/20210210/centernet_mobilenetv2fpn_512x512_coco17_kpts.tar.gz) | MobileNetV2 FPN | 512x512 | 6 | 41.7 | Keypoints |TPU-8 |
