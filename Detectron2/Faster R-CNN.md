@@ -11,8 +11,8 @@
 ## Training Resources
         8 NVIDIA V100 GPUs
 ## Faster R-CNN (R101-C4, 3x)
-| Parameters |  FLOPs  |   File Size | Training Resources | Training Time | 
-| :------: | :-----: | :------: | :-----: | :-----: | :-----: |
+| Parameters |  FLOPs  |   File Size | Training Time | 
+| :------: | :-----: | :------: | :-----: | 
 | 53 Million | 888 Billion | 202.02 MB |  1.93 days |
 
 
