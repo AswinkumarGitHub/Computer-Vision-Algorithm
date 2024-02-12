@@ -11,26 +11,8 @@
         - MS COCO 
 ## Training Resources
         8 NVIDIA V100 GPUs
-## Faster R-CNN (R101-C4, 3x)
-| Parameters |  FLOPs  |   File Size | Training Time | 
-| :------: | :-----: | :------: | :-----: | 
-| 53 Million | 888 Billion | 202.02 MB |  1.93 days |
-
-## Faster R-CNN (R101-DC5, 3x)
-| Parameters |  FLOPs  |   File Size | Training Time | 
-| :------: | :-----: | :------: | :-----: | 
-| 184 Million | 411 Billion | 704.76 MB | 1.41 days |
-
 
 #### Faster R-CNN:
-<!--
-(fb only) To update the table in vim:
-1. Remove the old table: d}
-2. Copy the below command to the place of the table
-3. :.!bash
-
-./gen_html_table.py --config 'COCO-Detection/faster*50*'{1x,3x}'*' 'COCO-Detection/faster*101*' --name R50-C4 R50-DC5 R50-FPN R50-C4 R50-DC5 R50-FPN R101-C4 R101-DC5 R101-FPN X101-FPN --fields lr_sched train_speed inference_speed mem box_AP
--->
 
 
 <table><tbody>
