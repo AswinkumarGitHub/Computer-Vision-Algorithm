@@ -1,15 +1,22 @@
 # Faster R-CNN (R101-C4, 3x)
-|Parameters | FLOPs    |    File Size | Training Data| Training Resources
-:-----------:-----------:-------------:-----------:----------:----------:
-|53 Million | 888 Billion | 202.02 MB | MS COCO | 8 NVIDIA V100 GPUs|
+|Parameters | FLOPs    |    File Size | Training Data| Training Resources | Training Time |
+|:-----------:| :-----------:| :-------------:|:-----------:|:----------:|:----------:|:-------:|
+|53 Million | 888 Billion | 202.02 MB | MS COCO | 8 NVIDIA V100 GPUs| 1.93 days |
 
 
 
 
 
-Training Time
-1.93 days
-Architecture	Convolution, RoIPool, RPN, Softmax, ResNet
+
+## Architecture:
+        - Convolution
+        - RoIPool
+        - RPN
+        - Softmax
+        - ResNet
+
+
+Architecture	
 ID	138204752
 Max Iter	270000
 lr sched	3x
