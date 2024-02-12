@@ -20,9 +20,9 @@
 
 
 ## Faster R-CNN (R101-DC5, 3x)
-| Parameters |  FLOPs  |   File Size | Training Data | Training Resources | Training Time | 
-| :------: | :-----: | :------: | :-----: | :-----: | :-----: |
-| 184 Million | 411 Billion | 704.76 MB | MS COCO | 8 NVIDIA V100 GPUs| 1.41 days |
+| Parameters |  FLOPs  |   File Size | Training Time | 
+| :------: | :-----: | :------: | :-----: | 
+| 184 Million | 411 Billion | 704.76 MB | 1.41 days |
 
 ## Architecture:
         - Convolution
