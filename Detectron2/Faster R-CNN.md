@@ -132,7 +132,7 @@
 ![image](https://github.com/AswinkumarGitHub/Computer-Vision-Algorithm/assets/117388784/78a7095b-3313-4b8d-b5ae-5b88fe92967b)
 
 
-[ Object detection _ Code to run ] (https://github.com/AswinkumarGitHub/Computer-Vision-Algorithm/blob/main/Detectron2/Faster%20R-CNN.py)
+[Object detection _ Code to run](https://github.com/AswinkumarGitHub/Computer-Vision-Algorithm/blob/main/Detectron2/Faster%20R-CNN.py)
 
 [Paper](https://arxiv.org/pdf/1506.01497v3.pdf)
 
